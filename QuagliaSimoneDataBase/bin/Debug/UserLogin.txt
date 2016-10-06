@@ -1,0 +1,5 @@
+﻿Super User|admin|true
+Mario Rossi|MRossi|false
+Simone Quaglia|Simone|true
+Morgan Freeman|Jailed|false
+Giorgio Mastrota|acciaio18.10|false
