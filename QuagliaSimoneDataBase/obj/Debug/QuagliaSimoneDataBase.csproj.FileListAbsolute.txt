@@ -31,3 +31,28 @@ C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Deb
 C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.frm_Login.resources
 C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.Properties.Resources.resources
 C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.csproj.GenerateResource.Cache
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.exe.config
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.exe
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.pdb
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.exe
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.pdb
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.csprojResolveAssemblyReference.cache
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.AdminForm.resources
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.Form_Anagrafe.resources
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.frm_Login.resources
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.Properties.Resources.resources
+C:\Users\admin\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.csproj.GenerateResource.Cache
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.exe.config
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.exe
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.pdb
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.csprojResolveAssemblyReference.cache
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.AdminForm.resources
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.Form_Anagrafe.resources
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\DataBase.frm_Login.resources
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.Properties.Resources.resources
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.csproj.GenerateResource.Cache
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.exe
+C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.pdb
+F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.exe.config
+F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.exe
+F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.pdb

@@ -72,5 +72,13 @@ namespace DataBase
       this.DialogResult = (Controllo()) ? DialogResult.OK : DialogResult.Cancel;
       this.Close();
     }
+
+    private void frm_Login_Load(object sender, EventArgs e)
+    {
+#if DEBUG
+      txt_ID.Text = "Super User";
+      txt_pwd.Text = "admin";
+# endif 
+    }
   }
 }

@@ -1,9 +1,7 @@
-4
+3
 Simone|M|20/10/1999|174|Dogliani
 
-Laura|F|2/5/2003|163|Dogliani
+Andrea|M|26/04/1999|170|Guarene
 
-Paolo|M|1/12/1967|170|Dogliani
-
-Lidia|F|24/10/1974|164|Dogliani
+Alex|M|8/12/1999|174|Alba
 
