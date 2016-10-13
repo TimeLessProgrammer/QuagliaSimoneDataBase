@@ -40,7 +40,9 @@ namespace DataBase
       if (!chb_filtroYON.Checked)
       {
         txtY_input.Visible = false;
+        txtY_input.Text = "";
         rdbFiltro_both.Visible = false;
+        rdbFiltro_both.Checked = false;
       }
     }
 
@@ -56,16 +58,18 @@ namespace DataBase
       frm_dgv.Load += (g, o) =>
       {
         var dgvDati = new DataGridView { Dock= DockStyle.Fill, AutoGenerateColumns=true };
+        
 
         if (rdbFemale.Checked)
-          dgvDati.DataSource = m_AnagrafeDati.Where(x => x.Tipo == "F").OrderBy(x => x.Nome).ToList();
+          dgvDati.DataSource = m_AnagrafeDati.Where(x => x.Tipo == "F").Where(x => x.BornDate.Contains(txtY_input.Text)).OrderBy(x => x.Nome).ToList();
         else if (rdbMale.Checked)
-          dgvDati.DataSource = m_AnagrafeDati.Where(x => x.Tipo == "M").OrderBy(x => x.Nome).ToList();
+          dgvDati.DataSource = m_AnagrafeDati.Where(x => x.Tipo == "M").Where(x => x.BornDate.Contains(txtY_input.Text)).OrderBy(x => x.Nome).ToList();
         else
-          dgvDati.DataSource = m_AnagrafeDati.OrderBy(x => x.Nome).ToList();
+          dgvDati.DataSource = m_AnagrafeDati.OrderBy(x => x.Nome).Where(x => x.BornDate.Contains(txtY_input.Text)).ToList();
          
         frm_dgv.Controls.Add(dgvDati);
-      };
+        frm_dgv.Size = new Size(dgvDati.Width, dgvDati.Height);
+      };      
       frm_dgv.Show();
        
     }
@@ -96,6 +100,11 @@ namespace DataBase
       }
       else
         MessageBox.Show("Il data base è vuoto","ALERT", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+    }
+
+    private void btnCancel_Click(object sender, EventArgs e)
+    {
+
     }
   }
 }

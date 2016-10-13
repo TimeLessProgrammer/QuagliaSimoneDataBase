@@ -57,6 +57,12 @@
     <Compile Include="Form_Anagrafe.Designer.cs">
       <DependentUpon>Form_Anagrafe.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCancelData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelData.Designer.cs">
+      <DependentUpon>frmCancelData.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Anagrafe.resx">
       <DependentUpon>Form_Anagrafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelData.resx">
+      <DependentUpon>frmCancelData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Login.resx">
       <DependentUpon>frm_Login.cs</DependentUpon>

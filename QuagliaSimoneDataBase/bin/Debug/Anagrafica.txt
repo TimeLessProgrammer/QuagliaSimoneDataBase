@@ -1,7 +1,11 @@
-3
+6
 Simone|M|20/10/1999|174|Dogliani
 
 Andrea|M|26/04/1999|170|Guarene
 
-Alex|M|8/12/1999|174|Alba
+Alex|M|8/12/1998|174|Alba
+
+Laura|F|2/5/2003|163|Dogliani
+
+Lorenza|F|23/7/1999|164|Caramagna
 

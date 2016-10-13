@@ -51,6 +51,7 @@
       this.bntAnnulla.TabIndex = 26;
       this.bntAnnulla.Text = "Annulla";
       this.bntAnnulla.UseVisualStyleBackColor = true;
+      this.bntAnnulla.Click += new System.EventHandler(this.bntAnnulla_Click);
       // 
       // btnOK
       // 

@@ -55,8 +55,8 @@ namespace DataBase
       }
       else if (result == DialogResult.Cancel)
       {
-        TextWriter sw = new StreamWriter("Anagrafica.txt", true);
-        sw.WriteLine((i + 1).ToString());
+        TextWriter sw = new StreamWriter("Anagrafica.txt", false);
+        sw.WriteLine(m_AnagrafeDati.Count);
         int j = 0;
 
         //for (int j = 0; j < Data.Count(); j++)

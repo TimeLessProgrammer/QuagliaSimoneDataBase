@@ -56,3 +56,4 @@ C:\Users\simone.quaglia\Documents\Visual Studio 2015\Projects\QuagliaSimoneDataB
 F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\QuagliaSimoneDataBase.exe.config
 F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.exe
 F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.pdb
+C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.frmCancelData.resources

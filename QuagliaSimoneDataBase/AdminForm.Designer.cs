@@ -36,7 +36,7 @@
       this.chb_filtroYON = new System.Windows.Forms.CheckBox();
       this.txtY_input = new System.Windows.Forms.TextBox();
       this.btnAddData = new System.Windows.Forms.Button();
-      this.button2 = new System.Windows.Forms.Button();
+      this.btnCancel = new System.Windows.Forms.Button();
       this.btnShowDgv = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
@@ -128,15 +128,16 @@
       this.btnAddData.UseVisualStyleBackColor = true;
       this.btnAddData.Click += new System.EventHandler(this.btnAddData_Click);
       // 
-      // button2
+      // btnCancel
       // 
-      this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-      this.button2.Location = new System.Drawing.Point(159, 284);
-      this.button2.Name = "button2";
-      this.button2.Size = new System.Drawing.Size(144, 53);
-      this.button2.TabIndex = 8;
-      this.button2.Text = "Cancella Dati";
-      this.button2.UseVisualStyleBackColor = true;
+      this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+      this.btnCancel.Location = new System.Drawing.Point(159, 284);
+      this.btnCancel.Name = "btnCancel";
+      this.btnCancel.Size = new System.Drawing.Size(144, 53);
+      this.btnCancel.TabIndex = 8;
+      this.btnCancel.Text = "Cancella Dati";
+      this.btnCancel.UseVisualStyleBackColor = true;
+      this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
       // 
       // btnShowDgv
       // 
@@ -154,7 +155,7 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(752, 349);
       this.Controls.Add(this.btnShowDgv);
-      this.Controls.Add(this.button2);
+      this.Controls.Add(this.btnCancel);
       this.Controls.Add(this.btnAddData);
       this.Controls.Add(this.txtY_input);
       this.Controls.Add(this.chb_filtroYON);
@@ -165,7 +166,9 @@
       this.Controls.Add(this.rdbMale);
       this.IsMdiContainer = true;
       this.Name = "AdminForm";
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "AdminForm";
+      this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
       this.Load += new System.EventHandler(this.AdminForm_Load);
       this.ResumeLayout(false);
       this.PerformLayout();
@@ -182,7 +185,7 @@
         private System.Windows.Forms.CheckBox chb_filtroYON;
         private System.Windows.Forms.TextBox txtY_input;
         private System.Windows.Forms.Button btnAddData;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCancel;
     private System.Windows.Forms.Button btnShowDgv;
   }
 }
