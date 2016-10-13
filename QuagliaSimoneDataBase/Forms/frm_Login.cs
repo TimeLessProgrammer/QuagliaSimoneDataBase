@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuagliaSimoneDataBase.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,14 +14,8 @@ namespace DataBase
 {
   public partial class frm_Login : Form
   {
-    public Boolean IsAdmin = false;
-
-    private struct Login
-    {
-      public string User { get; set; }
-      public string Pwd { get; set; }
-      public string IsSU { get; set; }
-    }
+    public Boolean IsAdmin = false;    
+    //List<QuagliaSimoneDataBase.Login> Authenticator = new List<QuagliaSimoneDataBase.Login>();
 
     public frm_Login()
     {
@@ -37,32 +32,39 @@ namespace DataBase
       }
       else
       {
-        StreamReader sr = new StreamReader("UserLogin.txt");
-        Login[] User = new Login[5];
+        StreamReader sr = new StreamReader("UserLogin.txt");        
         string Line = "";
         string[] comodo = new string[3];
         int i = 0;
+        
 
         while (sr.Peek() != -1)
         {
+          //QuagliaSimoneDataBase.Login line = new QuagliaSimoneDataBase.Login();          
           Line = sr.ReadLine();
           comodo = Line.Split('|');
-          User[i].User = comodo[0];
-          User[i].Pwd = comodo[1];
-          User[i].IsSU = comodo[2];
-          i++;
+          //line.User = comodo[0];
+          //line.Pwd = comodo[1];
+          //line.IsSU = comodo[2];
+          //Authenticator.Add(line);
+          helper.Login element = new helper.Login()
+          {
+            User = comodo[0],
+            Pwd = comodo[1],
+            IsSU = comodo[2]
+          };
+          helper.Authenticator.Add(element);
+         i++;
         }
 
-        int j = 0;
-        do
+        foreach(var x in helper.Authenticator)
         {
-          if (txt_ID.Text == User[j].User && txt_pwd.Text == User[j].Pwd)
+          if (txt_ID.Text == x.User && txt_pwd.Text == x.Pwd)
           {
             retVal = true;
+            IsAdmin = Convert.ToBoolean(x.IsSU);
           }
-          IsAdmin = Convert.ToBoolean(User[j].IsSU);
-          j++;
-        } while (!retVal && j < i);
+        }
       }
       return retVal;
     }

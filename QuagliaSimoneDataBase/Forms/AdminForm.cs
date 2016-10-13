@@ -13,15 +13,6 @@ namespace DataBase
 {
   public partial class AdminForm : Form
   {
-    //public struct AnagrafeDati
-    //{
-    //  public string Nome { get; set; }
-    //  public string Tipo { get; set; } //M F
-    //  public string BornDate { get; set; }
-    //  public int Altezza { get; set; }
-    //  public string Residenza { get; set; }
-    //}
-
     List<QuagliaSimoneDataBase.AnagrafeDati> m_AnagrafeDati = new List<QuagliaSimoneDataBase.AnagrafeDati>();
 
     public AdminForm()
@@ -44,13 +35,13 @@ namespace DataBase
         rdbFiltro_both.Visible = false;
         rdbFiltro_both.Checked = false;
       }
-    }
+    } //filtri maschio femmina e anno
 
     private void btnAddData_Click(object sender, EventArgs e)
     {
       Form_Anagrafe frmAnagrafe = new Form_Anagrafe(m_AnagrafeDati);
       frmAnagrafe.ShowDialog();
-    }
+    } //richiama la form per aggiungere dati
 
     private void btnShowDgv_Click(object sender, EventArgs e)
     {
@@ -72,11 +63,12 @@ namespace DataBase
       };      
       frm_dgv.Show();
        
-    }
+    } //mostra una form mdi contenente la dgv visualizza, viene istanziato un eventhandler per l'ordinamento
 
     private void AdminForm_Load(object sender, EventArgs e)
-    {      
+    {
       StreamReader sr = new StreamReader("Anagrafica.txt");
+      frm_Login frmLogin = new frm_Login();
       Int32 Fcount = Convert.ToInt32(sr.ReadLine());
 
       if (Fcount != 0)
@@ -99,12 +91,21 @@ namespace DataBase
         }
       }
       else
-        MessageBox.Show("Il data base è vuoto","ALERT", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-    }
+        MessageBox.Show("Il data base è vuoto", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+      sr.Close();
+    } //caricamento dati già presenti nel file di testo
 
     private void btnCancel_Click(object sender, EventArgs e)
     {
+      QuagliaSimoneDataBase.frmCancelData frmCancella = new QuagliaSimoneDataBase.frmCancelData(m_AnagrafeDati);
+      frmCancella.ShowDialog();
+    } //richiama form per cancellare
 
+    private void btnAddUser_Click(object sender, EventArgs e)
+    {
+      var frmAddUser = new QuagliaSimoneDataBase.frmAddUser();
+      frmAddUser.ShowDialog();
     }
   }
 }

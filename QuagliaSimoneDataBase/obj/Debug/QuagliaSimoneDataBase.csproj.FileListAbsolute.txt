@@ -57,3 +57,4 @@ F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\bin\Debug\Quaglia
 F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.exe
 F:\scuola\C#\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.pdb
 C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.frmCancelData.resources
+C:\Users\Simone\Source\Repos\QuagliaSimoneDataBase\QuagliaSimoneDataBase\obj\Debug\QuagliaSimoneDataBase.frmAddUser.resources

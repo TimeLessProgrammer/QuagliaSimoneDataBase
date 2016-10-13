@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace QuagliaSimoneDataBase
 {
-  public partial class frmCancelData : Form
+  public partial class frmAddUser : Form
   {
-    public frmCancelData()
+    public frmAddUser()
     {
       InitializeComponent();
     }
 
-    private void frmCancelData_Load(object sender, EventArgs e)
+    private void frmAddUser_Load(object sender, EventArgs e)
     {
-
+      dgvShowUser.DataSource = Class.helper.Authenticator;
     }
   }
 }

@@ -1,11 +1,11 @@
-6
+5
 Simone|M|20/10/1999|174|Dogliani
 
-Andrea|M|26/04/1999|170|Guarene
+Andrea|M|23/3/1999|172|Guarene
 
-Alex|M|8/12/1998|174|Alba
+Laura|F|3/5/2003|162|Dogliani
 
-Laura|F|2/5/2003|163|Dogliani
+Lorenza|F|26/7/1999|170|Caramagna
 
-Lorenza|F|23/7/1999|164|Caramagna
+Alex|M|8/12/1998|173|Alba
 

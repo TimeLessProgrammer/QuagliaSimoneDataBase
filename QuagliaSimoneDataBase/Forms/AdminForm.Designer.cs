@@ -38,6 +38,8 @@
       this.btnAddData = new System.Windows.Forms.Button();
       this.btnCancel = new System.Windows.Forms.Button();
       this.btnShowDgv = new System.Windows.Forms.Button();
+      this.btnAddUser = new System.Windows.Forms.Button();
+      this.btnDelUser = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // rdbMale
@@ -149,11 +151,34 @@
       this.btnShowDgv.UseVisualStyleBackColor = true;
       this.btnShowDgv.Click += new System.EventHandler(this.btnShowDgv_Click);
       // 
+      // btnAddUser
+      // 
+      this.btnAddUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+      this.btnAddUser.Location = new System.Drawing.Point(12, 255);
+      this.btnAddUser.Name = "btnAddUser";
+      this.btnAddUser.Size = new System.Drawing.Size(141, 23);
+      this.btnAddUser.TabIndex = 11;
+      this.btnAddUser.Text = "Aggiungi User";
+      this.btnAddUser.UseVisualStyleBackColor = true;
+      this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
+      // 
+      // btnDelUser
+      // 
+      this.btnDelUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+      this.btnDelUser.Location = new System.Drawing.Point(159, 255);
+      this.btnDelUser.Name = "btnDelUser";
+      this.btnDelUser.Size = new System.Drawing.Size(144, 23);
+      this.btnDelUser.TabIndex = 12;
+      this.btnDelUser.Text = "Cancella User";
+      this.btnDelUser.UseVisualStyleBackColor = true;
+      // 
       // AdminForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(752, 349);
+      this.Controls.Add(this.btnDelUser);
+      this.Controls.Add(this.btnAddUser);
       this.Controls.Add(this.btnShowDgv);
       this.Controls.Add(this.btnCancel);
       this.Controls.Add(this.btnAddData);
@@ -187,5 +212,7 @@
         private System.Windows.Forms.Button btnAddData;
         private System.Windows.Forms.Button btnCancel;
     private System.Windows.Forms.Button btnShowDgv;
+    private System.Windows.Forms.Button btnAddUser;
+    private System.Windows.Forms.Button btnDelUser;
   }
 }
